@@ -142,14 +142,16 @@ table.footer-wrap {
 	font-weight: bold;
 }
 
+.kasten::before {
+    content: url(../images/kasten.png);
+}
+
 /* ------------------------------------- 
 		TYPOGRAPHY 
 ------------------------------------- */
-h1, h2, h3, h4, h5, h6 {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
-		"Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	line-height: 1.1;
-	margin-bottom: 15px;
+.title {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
 	color: #000;
 }
 
