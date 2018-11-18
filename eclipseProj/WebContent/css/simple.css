@@ -11,17 +11,14 @@ table, tr, td {
 }
 
 * {
-	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-family: Arial, Helvetica, sans-serif !important;
 }
 
 img {
 	max-width: 100%;
 }
 
-.collapse {
-	margin: 0;
-	padding: 0;
-}
+
 
 body {
 	-webkit-font-smoothing: antialiased;
@@ -35,8 +32,9 @@ body {
 ------------------------------------- */
 .upper-text {
 	color: #767070;
-	font-size: 11px;
-	font-family: Arial;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	margin: 2;
 }
 
 a {
@@ -44,77 +42,33 @@ a {
 }
 
 
-
-
-
-.callout a {
-	font-weight: bold;
-	color: #2BA6CB;
-}
-
 table.social {
 	/* 	padding:15px; */
 	background-color: #ebebeb;
 }
 
-.social .soc-btn {
-	padding: 3px 7px;
-	font-size: 12px;
-	margin-bottom: 10px;
-	text-decoration: none;
-	color: #FFF;
-	font-weight: bold;
-	display: block;
-	text-align: center;
-}
-
-a.fb {
-	background-color: #3B5998 !important;
-}
-
-a.tw {
-	background-color: #1daced !important;
-}
-
-a.gp {
-	background-color: #DB4A39 !important;
-}
-
-a.ms {
-	background-color: #000 !important;
-}
-
-.sidebar .soc-btn {
-	display: block;
-	width: 100%;
-}
 
 /* ------------------------------------- 
 		HEADER 
 ------------------------------------- */
-table.head-wrap {
-	width: 100%;
-}
 
-.header.container table td.logo {
-	padding: 15px;
-}
 
-.no_margin {
+
+
+.no-margin {
 	margin: 0;
 }
 
-.center_class {
+.center-class {
 	text-align: center;
 }
 
-.social_hyperlink {
+.social-hyperlink {
 	text-decoration: none;
 }
 
 .header.container table td.label {
 	padding: 15px;
-	padding-left: 0px;
 }
 
 /* ------------------------------------- 
@@ -124,6 +78,7 @@ table.body-wrap {
 	width: 100%;
 	border-collapse: collapse;
 }
+
 
 /* ------------------------------------- 
 		FOOTER 
@@ -156,105 +111,24 @@ table.footer-wrap {
 	color: #000;
 }
 
-h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-	font-size: 60%;
-	color: #6f6f6f;
-	line-height: 0;
-	text-transform: none;
-}
 
-h1 {
-	font-weight: 200;
-	font-size: 44px;
-}
-
-h2 {
-	font-weight: 200;
-	font-size: 37px;
-}
-
-h3 {
-	font-weight: 500;
-	font-size: 27px;
-}
-
-h4 {
-	font-weight: 500;
-	font-size: 23px;
-}
-
-h5 {
-	font-weight: 900;
-	font-size: 17px;
-}
-
-h6 {
-	font-weight: 900;
-	font-size: 14px;
-	text-transform: uppercase;
-	color: #444;
-}
 
 .collapse {
 	margin: 0 !important;
 }
 
-p, ul {
+p {
 	margin-bottom: 10px;
 	font-weight: normal;
 	font-size: 14px;
-	line-height: 1.6;
+	line-height: 1.4;
 }
 
-p.lead {
-	font-size: 17px;
-}
 
-p.last {
-	margin-bottom: 0px;
-}
 
-ul li {
-	margin-left: 5px;
-	list-style-position: inside;
-}
 
-/* ------------------------------------- 
-		SIDEBAR 
-------------------------------------- */
-ul.sidebar {
-	background: #ebebeb;
-	display: block;
-	list-style-type: none;
-}
 
-ul.sidebar li {
-	display: block;
-	margin: 0;
-}
 
-ul.sidebar li a {
-	text-decoration: none;
-	color: #666;
-	padding: 10px 16px;
-	/* 	font-weight:bold; */
-	margin-right: 10px;
-	/* 	text-align:center; */
-	cursor: pointer;
-	border-bottom: 1px solid #777777;
-	border-top: 1px solid #FFFFFF;
-	display: block;
-	margin: 0;
-}
-
-ul.sidebar li a.last {
-	border-bottom-width: 0px;
-}
-
-ul.sidebar li a h1, ul.sidebar li a h2, ul.sidebar li a h3, ul.sidebar li a h4,
-	ul.sidebar li a h5, ul.sidebar li a h6, ul.sidebar li a p {
-	margin-bottom: 0 !important;
-}
 
 /* --------------------------------------------------- 
 		RESPONSIVENESS
@@ -264,7 +138,7 @@ ul.sidebar li a h1, ul.sidebar li a h2, ul.sidebar li a h3, ul.sidebar li a h4,
 /* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
 .container {
 	display: block !important;
-	max-width: 600px !important;
+	max-width: 650px !important;
 	margin: 0 auto !important; /* makes it centered */
 	clear: both !important;
 }
@@ -272,7 +146,8 @@ ul.sidebar li a h1, ul.sidebar li a h2, ul.sidebar li a h3, ul.sidebar li a h4,
 /* This should also be a block element, so that it will fill 100% of the .container */
 .content {
 	padding: 15px;
-	max-width: 600px;
+	margin:0;
+	max-width: 650px;
 	margin: 0 auto;
 	display: block;
 }
@@ -286,7 +161,7 @@ ul.sidebar li a h1, ul.sidebar li a h2, ul.sidebar li a h3, ul.sidebar li a h4,
 .column-wrap {
 	padding: 0 !important;
 	margin: 0 auto;
-	max-width: 600px !important;
+	max-width: 650px !important;
 }
 
 .column table {
@@ -304,9 +179,6 @@ ul.sidebar li a h1, ul.sidebar li a h2, ul.sidebar li a h3, ul.sidebar li a h4,
 	display: block;
 	clear: both;
 }
-/*.media_table{
-	width:50%;
-}*/
 
 /* ------------------------------------------- 
 		PHONE
@@ -317,7 +189,7 @@ ul.sidebar li a h1, ul.sidebar li a h2, ul.sidebar li a h3, ul.sidebar li a h4,
 	img {
 		width: 100%
 	}
-	img.fixed_width {
+	img.fixed-width {
 		width: auto;
 	}
 	table td {
