@@ -1,9 +1,10 @@
 /* ------------------------------------- 
 		GLOBAL 
 ------------------------------------- */
-table, tr, td{
-		border: 1px solid black;
-	}
+table, tr, td {
+	border: 1px solid black;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -32,13 +33,14 @@ body {
 /* ------------------------------------- 
 		ELEMENTS 
 ------------------------------------- */
-.upper-text{
+.upper-text {
 	color: #767070;
 	font-size: 13px;
 	font-family: Arial;
 }
-a{
-color:#767070;
+
+a {
+	color: #767070;
 }
 
 .btn {
@@ -143,15 +145,15 @@ table.footer-wrap {
 }
 
 .kasten::before {
-    content: url(../images/kasten.png);
+	content: url(../images/kasten.png);
 }
 
 /* ------------------------------------- 
 		TYPOGRAPHY 
 ------------------------------------- */
 .title {
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:24px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
 	color: #000;
 }
 
@@ -312,24 +314,29 @@ ul.sidebar li a h1, ul.sidebar li a h2, ul.sidebar li a h3, ul.sidebar li a h4,
 	display: block;
 	clear: both;
 }
+/*.media_table{
+	width:50%;
+}*/
 
 /* ------------------------------------------- 
 		PHONE
 		For clients that support media queries.
 		Nothing fancy. 
 -------------------------------------------- */
-@media only screen and (max-width: 600px) {
-	a[class="btn"] {
-		display: block !important;
-		margin-bottom: 10px !important;
-		background-image: none !important;
-		margin-right: 0 !important;
+@media only screen and (max-width: 570px) {
+	img {
+		width: 100%
 	}
-	div[class="column"] {
-		width: auto !important;
-		float: none !important;
+	img.signature {
+		width: auto;
 	}
-	table.social div[class="column"] {
-		width: auto !important;
+	table td {
+		display: block;
 	}
+	table td p {
+		width: auto;
+		padding: 0 !important;
+		marging: 0 !important;
+	}
+
 }
