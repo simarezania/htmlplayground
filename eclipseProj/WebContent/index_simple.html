@@ -68,6 +68,7 @@
 		<tr>
 			<td></td>
 			<td class="header container">
+			<!-- this padding:0 was the problem in IE -->
 				<div class="content" style="background-color: white; padding: 0;">
 					<table class="no-margin">
 						<tr>
@@ -202,11 +203,11 @@
 		</tr>
 		<tr>
 			<td></td>
-			<td class="container">
-				<div class="content" style="background-color: white">
-					<table>
+			<td class="header container">
+				<div class="content" style="background-color: white; padding:0;">
+					<table class="no-margin">
 						<tr>
-							<td>
+							<td class="content">
 								<p>&nbsp;</p>
 								<p class="title kasten">
 									<b>Aktuell auf WiWo.de</b>
@@ -250,7 +251,7 @@
 		<tr>
 			<td></td>
 			<td class="header container">
-				<div class="content" style="background-color: #DCF1EA;">
+				<div class="content" style="background-color: #DCF1EA; padding:0;"> 
 					<p class="title">
 						<b>Balzli direkt</b>
 					</p>
@@ -262,7 +263,7 @@
 			<td></td>
 			<td class="header container">
 				<div class="content"
-					style="background-color: #DCF1EA; padding: 15px">
+					style="background-color: #DCF1EA; padding: 0px">
 					<table style="margin: 0; background-color: #DCF1EA;">
 						<tr>
 							<td style="vertical-align: top;"><img
@@ -294,7 +295,7 @@
 		<tr>
 			<td></td>
 			<td class="header container no-margin">
-				<div class="content" style="background-color: white">
+				<div class="content" style="background-color: white; padding: 0px">
 					<table>
 						<tr>
 							<td>
@@ -354,7 +355,7 @@
 		<tr>
 			<td></td>
 			<td class="container no-margin">
-				<div class="content" style="background-color: white">
+				<div class="content" style="background-color: white; padding: 0px">
 					<table style="width: 100%; border-collapse: collapse;">
 						<tr>
 							<td class="center-class"><br> <a
@@ -372,7 +373,7 @@
 								href="mailto:example@email.com"> <img class="fixed-width"
 									src="images/mail.png" alt="Mail">
 							</a> <br> <br>
-								<hr class="no-margin"></td>
+								<hr  class="no-margin "></td>
 						</tr>
 						<tr>
 							<td class="footer-text">
