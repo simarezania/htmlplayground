@@ -7,7 +7,7 @@ table, tr, td {
 
 * {
 	margin: 0;
-	padding: 0;
+	padding: 0px;
 }
 
 * {
@@ -28,25 +28,41 @@ body {
 /* ------------------------------------- 
 		ELEMENTS 
 ------------------------------------- */
+.empty-30 {
+	width: 100%;
+	height: 30px;
+	line-height: 1px;
+	font-size: 1px !important;
+}
+
+.empty-10 {
+	width: 100%;
+	height: 30px;
+	line-height: 1px;
+	font-size: 1px !important;
+}
+.empty-5 {
+	
+	height: 5px;
+	line-height: 1px;
+	font-size: 1px !important;
+}
+
 .upper-text {
 	color: #767070;
-	font-size: 10px;
+	font-size: 13px;
 	font-family: Arial, Helvetica, sans-serif !important;
-	margin: 2;
+	margin: 0;
 }
 
 a {
 	color: #767070;
 }
 
-table.social {
-	/* 	padding:15px; */
-	background-color: #ebebeb;
-}
 
-.empty-30 {
+.empty-20 {
 	width: 100%;
-	height: 30px;
+	height: 20px;
 	line-height: 1px;
 	font-size: 1px !important;
 }
@@ -57,12 +73,22 @@ table.social {
 	line-height: 1px;
 	font-size: 1px !important;
 }
+.ps{
+	font-size: 11px
+}
+
+.info-right {
+	text-align: right;
+}
 
 /* ------------------------------------- 
 		HEADER 
 ------------------------------------- */
 .no-margin {
 	margin: 0;
+}
+.no-padding{
+	padding:0;
 }
 
 .center-class {
@@ -85,11 +111,10 @@ table.body-wrap {
 	border-collapse: collapse;
 }
 
-
 .kasten::before {
 	content: url(../images/kasten.png);
-	style="padding:15;"
-}
+	padding: 0px;
+	}
 
 /* ------------------------------------- 
 		TYPOGRAPHY 
@@ -107,8 +132,8 @@ table.body-wrap {
 p {
 	margin-bottom: 0px;
 	font-weight: normal;
-	font-size: 14px;
-	line-height: 1.4;
+	font-size: 16px;
+	line-height: 24px;
 }
 
 /* --------------------------------------------------- 
@@ -131,6 +156,18 @@ p {
 	max-width: 650px;
 	margin: 0 auto;
 	display: block;
+}
+.content-two-column{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-top: 0px;
+	margin: 0 auto;
+	display: block;
+}
+
+.color-white{
+	background-color: white;
 }
 
 /* Let's make sure tables in the content area are 100% wide */
@@ -171,7 +208,7 @@ p {
 	}
 	img.fixed-width {
 		width: auto;
-		padding:0;
+		padding: 0;
 	}
 	table td {
 		display: block;
@@ -181,4 +218,13 @@ p {
 		padding: 0 !important;
 		marging: 0 !important;
 	}
+	.info-right {
+	text-align: left;
+	padding-left:15px;
+	}
+	.info-left {
+	text-align: left;
+	padding-left:15px;
+	}
+	
 }
