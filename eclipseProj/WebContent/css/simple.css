@@ -105,6 +105,9 @@ a {
 .no-padding{
 	padding:0;
 }
+.padding-15{
+	padding:15
+}
 
 .center-class {
 	text-align: center;
@@ -240,7 +243,7 @@ p {
 	}
 	table td p {
 		width: auto;
-		padding: 0 !important;
+		/*padding: 0 !important;*/
 		marging: 0 !important;
 	}
 	.info-right {
