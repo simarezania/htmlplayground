@@ -5,8 +5,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Newsletter</title>
 <style>
-
-
 table, tr, td {
 	border: 0px solid black;
 }
@@ -100,7 +98,6 @@ a {
 	color: #767070;
 }
 
-
 .no-margin {
 	margin: 0;
 }
@@ -117,6 +114,10 @@ a {
 	text-align: center;
 }
 
+.min-width {
+	min-width: 275px;
+}
+
 .social-hyperlink {
 	text-decoration: none;
 }
@@ -124,7 +125,6 @@ a {
 .header.container table td.label {
 	padding: 15px;
 }
-
 
 table.body-wrap {
 	width: 100%;
@@ -135,7 +135,6 @@ table.body-wrap {
 	content: url(../images/kasten.png);
 	padding: 0px;
 }
-
 
 .title {
 	font-family: Arial, Helvetica, sans-serif;
@@ -153,8 +152,6 @@ p {
 	font-size: 16px;
 	line-height: 24px;
 }
-
-
 
 /* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
 .container {
@@ -186,6 +183,10 @@ p {
 	background-color: white;
 }
 
+.color-light-blue {
+	background-color: #DCF1EA;
+}
+
 /* Let's make sure tables in the content area are 100% wide */
 .content table {
 	width: 100%;
@@ -212,7 +213,6 @@ p {
 	display: block;
 	clear: both;
 }
-
 
 @media only screen and (max-width: 600px) {
 	.anzeige {
@@ -301,7 +301,7 @@ p {
 					<p class="no-margin">
 						<img src="images/wiwo_logo.jpg">
 					</p>
-					<p class="no-margin" style="">
+					<p class="no-margin">
 						<img src="images/header.jpg">
 					</p>
 				</div>
@@ -313,7 +313,7 @@ p {
 			<td></td>
 			<td class="header container">
 				<!-- this padding:0 was the problem in IE -->
-				<div class="content" style="background-color: white; padding: 0;">
+				<div class="content color-white" style="padding: 0;">
 					<table class="no-margin">
 						<tr>
 							<td>
@@ -348,7 +348,7 @@ p {
 								<table>
 									<tr>
 										<td class="padding-15" style="vertical-align: top;"><img
-											style="min-width: 275px" src="./images/titlestory.png">
+											class="min-width" src="./images/titlestory.png">
 										<td class="padding-15" style="vertical-align: top;">
 											<p class="title">
 												<b> Die Subventionsjäger </b>
@@ -447,7 +447,7 @@ p {
 		<tr>
 			<td></td>
 			<td class="header container">
-				<div class="content" style="background-color: white; padding: 0;">
+				<div class="content color-white" style="padding: 0;">
 					<table class="no-margin">
 						<tr>
 							<td class="content">
@@ -494,7 +494,7 @@ p {
 		<tr>
 			<td></td>
 			<td class="header container">
-				<div class="content" style="background-color: #DCF1EA; padding: 0;">
+				<div class="content color-light-blue" style=" padding: 0;">
 					<p class="title content">
 						<br> <b>Balzli direkt</b>
 					</p>
@@ -505,13 +505,11 @@ p {
 		<tr>
 			<td></td>
 			<td class="header container">
-				<div class="content" style="background-color: #DCF1EA; padding: 0px">
-					<table style="margin: 0; background-color: #DCF1EA;">
+				<div class="content color-light-blue" style="padding: 0px">
+					<table class="color-light-blue" style="margin: 0; ">
 						<tr>
 							<td class="padding-15" style="vertical-align: top;"><img
-								style="min-width: 275px" src="./images/teaser_video.jpeg">
-
-							</td>
+								class="min-width" src="./images/teaser_video.jpeg"></td>
 
 
 							<td class="content-two-column" style="vertical-align: top;">
@@ -537,7 +535,7 @@ p {
 		<tr>
 			<td></td>
 			<td class="header container no-margin">
-				<div class="content" style="background-color: white; padding: 0px">
+				<div class="content color-white" style="padding: 0px">
 					<table>
 						<tr>
 							<td class="content">
@@ -585,7 +583,7 @@ p {
 		<tr>
 			<td></td>
 			<td class="header container">
-				<div class="content" style="background-color: white; padding: 0;">
+				<div class="content color-white" style="padding: 0;">
 					<p>
 						<br>&nbsp;<br>
 					</p>
@@ -611,7 +609,7 @@ p {
 		<tr>
 			<td></td>
 			<td class="container no-margin">
-				<div class="content" style="background-color: white; padding: 0px">
+				<div class="content color-white" style="padding: 0px">
 					<table style="width: 100%; border-collapse: collapse;">
 						<tr>
 							<td class="center-class"><br> <a
