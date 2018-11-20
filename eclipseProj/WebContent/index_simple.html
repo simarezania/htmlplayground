@@ -4,7 +4,251 @@
 <meta name="viewport" content="width=device-width" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Newsletter</title>
-<link rel="stylesheet" type="text/css" href="css/simple.css" />
+<style>
+
+
+table, tr, td {
+	border: 0px solid black;
+}
+
+* {
+	margin: 0;
+	padding: 0px;
+}
+
+* {
+	font-family: Arial, Helvetica, sans-serif !important;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: none;
+	width: 100% !important;
+	height: 100%;
+}
+
+.empty-30 {
+	width: 100%;
+	height: 30px;
+	line-height: 1px;
+	font-size: 1px !important;
+}
+
+.empty-10 {
+	width: 100%;
+	height: 30px;
+	line-height: 1px;
+	font-size: 1px !important;
+}
+
+.empty-5 {
+	height: 5px;
+	line-height: 1px;
+	font-size: 1px !important;
+}
+
+.upper-text {
+	color: #767070;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif !important;
+	margin: 0;
+}
+
+a {
+	color: #767070;
+}
+
+.empty-20 {
+	width: 100%;
+	height: 20px;
+	line-height: 1px;
+	font-size: 1px !important;
+}
+
+.empty-10 {
+	width: 100%;
+	height: 10px;
+	line-height: 1px;
+	font-size: 1px !important;
+}
+
+.ps {
+	font-size: 11px;
+}
+
+.up-title {
+	font-size: 12px;
+}
+
+.footer-text {
+	font-size: 14px;
+	color: #767070;
+}
+
+.info-right {
+	text-align: right;
+}
+
+.anzeige {
+	text-align: right;
+	padding-right: 25px;
+	font-size: 12px;
+	color: #767070;
+}
+
+
+.no-margin {
+	margin: 0;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.padding-15 {
+	padding: 15
+}
+
+.center-class {
+	text-align: center;
+}
+
+.social-hyperlink {
+	text-decoration: none;
+}
+
+.header.container table td.label {
+	padding: 15px;
+}
+
+
+table.body-wrap {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.kasten::before {
+	content: url(../images/kasten.png);
+	padding: 0px;
+}
+
+
+.title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #000;
+}
+
+.collapse {
+	margin: 0 !important;
+}
+
+p {
+	margin-bottom: 0px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+.container {
+	display: block !important;
+	max-width: 650px !important;
+	margin: 0 auto !important; /* makes it centered */
+	clear: both !important;
+}
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+	padding: 15px;
+	hgf margin: 0;
+	max-width: 650px;
+	margin: 0 auto;
+	display: block;
+}
+
+.content-two-column {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-top: 0px;
+	margin: 0 auto;
+	display: block;
+}
+
+.color-white {
+	background-color: white;
+}
+
+/* Let's make sure tables in the content area are 100% wide */
+.content table {
+	width: 100%;
+}
+
+.column-wrap {
+	padding: 0 !important;
+	margin: 0 auto;
+	max-width: 650px !important;
+}
+
+.column table {
+	width: 100%;
+}
+
+.social .column {
+	width: 280px;
+	min-width: 279px;
+	float: left;
+}
+
+/* Be sure to place a .clear element after each set of columns, just to be safe */
+.clear {
+	display: block;
+	clear: both;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.anzeige {
+		text-align: right;
+		padding-right: 0px;
+		font-size: 12px;
+		color: #767070;
+	}
+}
+
+@media only screen and (max-width: 570px) {
+	img {
+		width: 100%
+	}
+	img.fixed-width {
+		width: auto;
+		padding: 0;
+	}
+	table td {
+		display: block;
+	}
+	table td p {
+		width: auto;
+		/*padding: 0 !important;*/
+		marging: 0 !important;
+	}
+	.info-right {
+		text-align: left;
+		padding-left: 15px;
+	}
+	.info-left {
+		text-align: left;
+		padding-left: 15px;
+	}
+}
+</style>
 </head>
 <body bgcolor="#F1F1F1">
 
@@ -72,7 +316,7 @@
 				<div class="content" style="background-color: white; padding: 0;">
 					<table class="no-margin">
 						<tr>
-							<td >
+							<td>
 								<p class="content">
 									Liebe Lesennienen und Leser,<br> <br> <span>Lorem1
 										ipsum dolor sit amet, consectetur adipisicing elit. Eum
@@ -101,17 +345,16 @@
 										<p>&nbsp;</p>
 								</p>
 
-								<table >
+								<table>
 									<tr>
-										<td class="padding-15"style="vertical-align: top;"><img style="min-width: 275px"
-											src="./images/titlestory.png">
-											
+										<td class="padding-15" style="vertical-align: top;"><img
+											style="min-width: 275px" src="./images/titlestory.png">
 										<td class="padding-15" style="vertical-align: top;">
 											<p class="title">
 												<b> Die Subventionsjäger </b>
 											</p>
 											<p class="empty-5"></p>
-											<p >Lorem2 ipsum dolor sit amet, consectetur adipisicing
+											<p>Lorem2 ipsum dolor sit amet, consectetur adipisicing
 												elit. Officiis optio ullam laboriosam sequi soluta in,
 												asperiores veniam deserunt. Accusantium corporis praesentium
 											</p>
@@ -167,9 +410,9 @@
 										Possimus quibusdam beatae, ut magni voluptas. </span></span><a href="#"
 										target="_blank">jetzt lesen</a> lesen.</font></a>
 								</p> <br>
-								<p class="content">Ein Wochenende in lässig-luftiger Kleidung und
-									ausreichend Abkühlung wünscht,</p> <img class="fixed-width"
-								alt="Signature" src="./images/signature.png" />
+								<p class="content">Ein Wochenende in lässig-luftiger
+									Kleidung und ausreichend Abkühlung wünscht,</p> <img
+								class="fixed-width" alt="Signature" src="./images/signature.png" />
 								<p class="content">
 									<b> Beat Balzi</b><br> Chefredakteur WirtschaftsWoche
 								</p> <br>
