@@ -170,7 +170,7 @@ p {
 
 /* This should also be a block element, so that it will fill 100% of the .container */
 .content {
-	padding: 15px;
+	padding: 15px;hgf
 	margin: 0;
 	max-width: 650px;
 	margin: 0 auto;
