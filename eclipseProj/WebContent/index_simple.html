@@ -80,10 +80,10 @@ a {
 	color: #767070;
 	line-height: 18px;
 }
+
 .info-right {
 	text-align: right;
 }
-
 
 .anzeige {
 	text-align: right;
@@ -100,15 +100,22 @@ a {
 	padding: 0;
 }
 
-.padding-15 {
-	padding: 15px;
+.padding-20 {
+	padding: 20px;
 }
 
-.padding-15-no-top {
+.padding-20-no-top {
 	padding-top: 0;
-	padding-bottom: 15px;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.padding-20-no-top-left {
+	padding-top: 0;
+	padding-bottom: 20px;
+	padding-left: 0px;
+	padding-right: 20px;
 }
 
 .center-class {
@@ -133,7 +140,7 @@ a {
 }
 
 .header.container table td.label {
-	padding: 15px;
+	padding: 20px;
 }
 
 table.body-wrap {
@@ -182,9 +189,9 @@ p {
 
 .content-two-column {
 	padding-left: 0px;
-	padding-right: 15px;
-	padding-bottom: 15px;
-	padding-top: 15px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
 	margin: 0 auto;
 }
 
@@ -209,12 +216,6 @@ p {
 
 .column table {
 	width: 100%;
-}
-
-.social .column {
-	width: 280px;
-	min-width: 279px;
-	float: left;
 }
 
 @media only screen and (max-width: 600px) {
@@ -244,14 +245,20 @@ p {
 	}
 	.info-right {
 		text-align: left;
-		padding-left: 15px;
+		padding-left: 20px;
 	}
 	.info-left {
 		text-align: left;
-		padding-left: 15px;
+		padding-left: 20px;
 	}
 	td.content-two-column {
-		padding: 15px;
+		padding: 20px;
+		margin: 0 auto;
+		display: block;
+		margin: 0 auto;
+	}
+	td.padding-20-no-top-left {
+		padding: 20px;
 		margin: 0 auto;
 		display: block;
 		margin: 0 auto;
@@ -327,7 +334,7 @@ p {
 					<table class="no-margin">
 						<tr>
 							<td>
-								<p class="content padding-15">
+								<p class="content padding-20">
 									Liebe Leseriennen und Leser,<br> <br> <span>Lorem1
 										ipsum dolor sit amet, consectetur adipisicing elit. Eum
 										blanditiis deserunt iste, maiores molestias possimus earum
@@ -357,7 +364,7 @@ p {
 
 								<table>
 									<tr>
-										<td class="padding-15 top-alignment"><img
+										<td class="padding-20 top-alignment"><img
 											class="min-width-small-img" src="./images/titlestory.png"></td>
 
 										<td class="content-two-column top-alignment">
@@ -378,7 +385,7 @@ p {
 								</table>
 
 
-								<p class="content padding-15">
+								<p class="content padding-20">
 									<span class="title kasten content "><b>Analoge Ämter</b></span>
 									<span>Lorem ipsum dolor sit amet, consectetur
 										adipisicing elit. Eaque debitis, impedit dolorem minima maxime
@@ -399,7 +406,7 @@ p {
 										target="_blank">jetzt lesen</a>
 								</p>
 
-								<p class="content padding-15">
+								<p class="content padding-20">
 									<span class="title kasten content "> <b>Bescheidener
 											Boss</b></span> <span>Lorem ipsum dolor sit amet, consectetur
 										adipisicing elit. Eaque debitis, impedit dolorem minima maxime
@@ -419,14 +426,14 @@ p {
 										Possimus quibusdam beatae, ut magni voluptas. </span><a href="#"
 										target="_blank">jetzt lesen</a>
 								</p> <br>
-								<p class="content padding-15">Ein Wochenende in
+								<p class="content padding-20">Ein Wochenende in
 									lässig-luftiger Kleidung und ausreichend Abkühlung wünscht,</p> <img
-								class="padding-15 fixed-width" alt="Signature"
+								class="padding-20 fixed-width" alt="Signature"
 								src="./images/signature.png" />
-								<p class="content padding-15">
+								<p class="content padding-20">
 									<b> Beat Balzi</b><br> Chefredakteur WirtschaftsWoche
 								</p> <br>
-								<p class="ps content padding-15">
+								<p class="ps content padding-20">
 									<strong>PS: </strong>Sie haben Fragen oder Anregungen?
 									Schreiben Sie mir unter <a href="#" target="_blank">agenda@wiwo.de</a>-
 									oder auf <a href="http://twitter.com" target="_blank">Twitter</a>
@@ -463,7 +470,7 @@ p {
 				<div class="content color-white">
 					<table class="no-margin">
 						<tr>
-							<td class="content padding-15">
+							<td class="content padding-20">
 								<p>&nbsp;</p>
 								<p class="title kasten">
 									<b>Aktuell auf WiWo.de</b>
@@ -489,13 +496,14 @@ p {
 								<p class="title">
 									<b> „Das große Risiko ist Italien“</b>
 								</p>
+								<p class="empty-10"></p>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-									do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-									Ut enim ad minim veniam, quis nostrud exercitation ullamco
-									laboris nisi ut consequat. <a href="#">jetzt lesen </a>
+									Der Präsident des Deutschen Instituts für Wirtschaftsforschung
+									(DIW), Marcel Fratzscher, glaubt nicht an einen Abschwung in
+									Deutschland. Italien sieht er als größten Risikofaktor für
+									Europa. <a href="#">jetzt lesen </a>
 								</p>
-								<p>&nbsp;</p>
+								<p class="empty-5"></p>
 								<p>&nbsp;</p>
 							</td>
 						</tr>
@@ -508,7 +516,7 @@ p {
 			<td></td>
 			<td class="header container">
 				<div class="content color-light-blue">
-					<p class="title content padding-15">
+					<p class="title content padding-20-no-top">
 						<br> <b>Balzli direkt</b>
 					</p>
 				</div>
@@ -521,11 +529,11 @@ p {
 				<div class="content color-light-blue">
 					<table class="color-light-blue no-margin">
 						<tr>
-							<td class="padding-15 top-alignment"><img
+							<td class="padding-20-no-top top-alignment"><img
 								class="min-width-small-img" src="./images/teaser_video.jpeg"></td>
 
 
-							<td class="padding-15 top-alignment content-two-column">
+							<td class=" top-alignment padding-20-no-top-left">
 								<p class="up-title " style="line-height: 90%;">DIW PRÄSIDENT
 									MARCEL FRATYSCHER</p>
 								<p class="empty-5"></p>
@@ -555,7 +563,7 @@ p {
 				<div class="content color-white">
 					<table>
 						<tr>
-							<td class="content padding-15">
+							<td class="content padding-20">
 								<p>&nbsp;</p>
 								<p class="up-title">AUTOBAHN-BAU</p>
 								<p class="title">
@@ -580,7 +588,7 @@ p {
 					</table>
 					<table class="color-white">
 						<tr>
-							<td class="padding-15-no-top"><img
+							<td class="padding-20-no-top"><img
 								class="min-width-small-img" src="./images/dossier.png"></td>
 							<div class middle-alignment-text>
 								<td class="content-two-column">
@@ -656,7 +664,7 @@ p {
 						</tr>
 
 						<tr>
-							<td class="footer-text padding-15 ">
+							<td class="footer-text padding-20 ">
 
 								<p class="footer-text">
 									<b>Newsletter abbestellen</b>
